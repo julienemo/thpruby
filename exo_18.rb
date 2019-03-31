@@ -1,9 +1,11 @@
 puts "choisir un prénom"
 print "> "
-prenom = gets.chomp
+rep1 = gets.chomp
+prenom = rep1.downcase
 puts "choisir un nom de famille ?"
 print "> "
-nom = gets.chomp
+rep2 = gets.chomp
+nom = rep2.downcase
 range = (1..50).to_a
 fauxemail = []
 range.each do |order|

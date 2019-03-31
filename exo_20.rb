@@ -12,3 +12,5 @@ list.each do |figure|
   print "#" * (figure+1)
   puts''
 end
+# data validation TBD 
+# what if user enters string ?

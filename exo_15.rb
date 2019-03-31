@@ -4,5 +4,10 @@ annee = Integer(gets.chomp)
 list = (annee..2017)
 list.each do |figure|
   an = figure
-  puts "en #{an}, tu avais #{an - annee} an(s)."
+  age = an - annee
+  if age == 0
+    puts "En #{an}, tu es né(e)."
+  else
+    puts "En #{an}, tu avais #{age} an(s)."
+  end
 end
